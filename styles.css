@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+ font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Bitcount Grid Double Ink", system-ui;
+    font-size: 20px;    
+    text-align: center;
+    background-color: yellow;
+    margin-top: 20px;
+    /* le sete el valor a cada lado*/
+    margin-bottom: 20px;
+    /*      up  right   downs left */
+    margin: 70px 0     120px   30px;
+        /* up-down  right-left */
+    margin: 70px 20px;
+    /* un solo valor para cada lado de la caja */
+    margin: 20px
+}
+
+.gatitos_card {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 900px;
+}
+
+/* es para poder poder aplicar los mismos estilos en diferentes elementos */
+.subtitulo {    
+    text-align: justify;
+    padding: 8px;
+}
+
+/* solo es para un solo uso por pagina */
+#container {
+    background-color: #BBFCFC;
+    width: 300px;
+    height: auto;
+    border: 1px solid red;    
+    border-radius: 4px;
+/*     box-sizing: border-box; */
+}

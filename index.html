@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* Estilos en cascada */
+        /* Especificidad */
+        * {
+            /* CSS RESET */
+            background-color: beige;
+        }
+
+        h1 {
+            color: red;
+            font-size: 80px;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        /* // selectores */
+        button {            
+            border: 4px red solid;
+            color: #f0f0f0;
+            border-radius: 70px;
+            height: 70px;
+            width: 140px;
+            font-size: 25px;            
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+
+        /* CLASES CSS */
+        .subtitulo {
+            width: 300px;
+            height: 80px;
+            box-sizing: border-box;
+            color: blue;
+            font-weight: 600;
+            font-size: 100px;
+            border: 10px red solid;
+        }
+
+
+        /* CLASE ID solo deben de exisitir un id por pagina*/
+        #btn-comprar_purple {
+            background-color: #7137BD;            
+        }
+
+        #btn-comprar_yellow {
+            background-color: yellow;
+            color: red;             
+        }
+
+        .subtitulo li {
+            border-bottom: 20px red dotted;
+        }
+
+        .subtitulo a {
+            font-size: 16px;
+        }
+
+        .subtitulo .radio {
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hola esta es la clase de CSS</h1>
+    <h1 class="subtitulo">Soy un subtitulo</h1>
+    <p>Hola como estas</p> 
+    <button id="btn-comprar_yellow" class="subtitulo">Comprar</button>
+    <div class="subtitulo">
+        <h5 style="color:purple;">Clase de CSS rules!</h5>
+        <li>H</li>
+        <li>O</li>
+        <li>L</li>
+        <li>A</li>
+        <a>descarga el archivo</a>
+        <span class="radio">radio</span>
+    </div>
+    <span class="radio">radio</span>
+</body>
+</html>
