@@ -1,0 +1,73 @@
+body{
+    color: #FFFF;
+}
+
+section{
+    position: relative;
+    background-color: #141414;
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px auto; /* <--- tipo para centrar elementos */        
+    padding: 10px 0;
+}
+
+.card_title {
+    text-align: center;
+}
+
+.title {
+    font-size: 23px;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title h5, p {
+    margin: 8px;
+}
+
+.title p {
+    font-size: 16px;
+    color: #C4F82A
+}
+
+.card_title img {
+    width: 80px;
+    height: auto;
+    border-radius: 999px;
+}
+
+.btn_list{
+    margin-top: 30px;
+}
+
+.btn_list a {
+    display: block;
+    text-align: center;
+    background-color: #333333;
+    margin: 10px 20px;
+    border-radius: 4px;
+    height: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn_list a:hover{
+    background-color: #C4F82A;
+    color: #333333;
+    border: 1px solid transparent;
+}
+
+
+.contact_btn {
+    position: absolute;
+    bottom: -25px;
+    right: -20px;
+
+    border: 1px solid #333333;
+    background-color: white;
+    border-radius: 999px;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+}
